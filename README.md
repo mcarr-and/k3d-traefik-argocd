@@ -1,7 +1,9 @@
 # k3d-traefik-argocd
 K3D with Argocd using Traefik as a router
 
-
+Installs:
+* Traefik (namespace: kube-system)
+* ArgoCD (namespace: argocd)
 
 ## /etc/hosts
 
@@ -78,7 +80,6 @@ URL is now
 ```bash
 ./scripts/argocd-show-password.sh
 ```
-
 
 # tear down cluster
 
